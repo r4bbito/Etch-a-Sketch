@@ -1,0 +1,35 @@
+html{
+    margin: 0;
+}
+.grid{
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.column{
+    display: flex;
+    flex-grow: 1;
+}
+
+#square-grids {
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    flex-direction: column;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    background-color: black;
+}
+.color2{
+    background-color: white;
+}
